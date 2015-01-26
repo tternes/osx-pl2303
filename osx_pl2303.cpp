@@ -2255,7 +2255,7 @@ IOReturn osx_pl2303::executeEventGated( UInt32 event, UInt32 data, void *refCon 
 
 		case PD_RS232_E_STOP_BITS:
 			DEBUG_IOLog(4,"%s(%p)::executeEvent - PD_RS232_E_STOP_BITS\n", getName(), this );
-			if ( (data < 0) || (data > 20) )
+			if ( data > 20 )
 				ret = kIOReturnBadArgument;
 			else
 			{
