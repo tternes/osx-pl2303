@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>osx-pl2303</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0.1</string>
+	<string>1.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.sourceforge.osx-pl2303</string>
+	<string>co.bluetoo.kext.osx-pl2303</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,7 +19,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>04bb_0a03</key>
